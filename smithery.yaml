@@ -1,0 +1,7 @@
+name: genpark-sliding-window-rate-anomaly-detector-skill
+description: Real-time streaming sliding-window anomaly and burst detector using z-score and EWMA for LLM token and API spikes
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
