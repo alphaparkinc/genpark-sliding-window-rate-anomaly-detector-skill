@@ -1,0 +1,10 @@
+{
+  "name": "genpark-sliding-window-rate-anomaly-detector-skill",
+  "version": "1.0.1",
+  "description": "Real-time streaming sliding-window anomaly and burst detector using z-score and EWMA for LLM token and API spikes",
+  "tools": [
+    "record_event",
+    "detect_anomaly",
+    "get_metric_summary"
+  ]
+}
